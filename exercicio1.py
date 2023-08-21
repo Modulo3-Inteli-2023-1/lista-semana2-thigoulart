@@ -7,7 +7,8 @@ def conta_palavras_unicas(texto):
             contagem[palavra] += 1
         else:
             contagem[palavra] = 1
-    return contagem
+    numero_palavras_unicas = len(contagem)
+    return numero_palavras_unicas
 
 
 
