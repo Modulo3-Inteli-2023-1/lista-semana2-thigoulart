@@ -1,6 +1,5 @@
 # Crie a função que será avaliada no exercício aqui
-texto = input('Digite um texto: ')
-def conta_palavras_unicas():
+def conta_palavras_unicas(texto):
     palavras = texto.split()
     contagem = {}
     for palavra in palavras:
