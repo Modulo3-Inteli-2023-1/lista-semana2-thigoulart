@@ -9,8 +9,6 @@ def conta_palavras_unicas():
         else:
             contagem[palavra] = 1
     return contagem
-print(conta_palavras_unicas())
-
 
 
 
